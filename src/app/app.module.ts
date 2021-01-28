@@ -17,8 +17,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import {MatInputModule} from '@angular/material/input';
-
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -27,7 +26,7 @@ import {MatInputModule} from '@angular/material/input';
     RegisterComponent,
     LoginComponent,
     ContactUsComponent,
-    IndexComponent
+    IndexComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,9 +38,9 @@ import {MatInputModule} from '@angular/material/input';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatInputModule
+    MatInputModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
